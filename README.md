@@ -11,3 +11,20 @@ Small fixes of GTK apps elements:
 #### Usage
 Download file to `~/.config/gtk-3.0`:  
 `wget -P ~/.config/gtk-3.0 https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/gtk.css`
+### themes.zip
+#### Description
+1. Mew-Dark: GTK theme, defines applications appearance.
+2. Mew-Dark-Shell: GNOME Shell theme, defines shell appearance.
+#### Usage
+1. Download archive:  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/themes.zip`
+2. Extract files to `~/.themes`:  
+`unzip themes.zip -d ~/.themes`
+### icons.zip
+#### Description
+Mew-Icons: Icon theme, defines set of system and application icons
+#### Usage
+1. Download archive:  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/icons.zip`
+2. Extract files to `~/.icons`:  
+`unzip icons.zip -d ~/.icons`
