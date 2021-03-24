@@ -28,3 +28,12 @@ Mew-Icons: Icon theme, defines set of system and application icons
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/icons.zip`
 2. Extract files to `~/.icons`:  
 `unzip icons.zip -d ~/.icons`
+### adwaita-battery-icons.bash*
+#### Description
+Script to move replace default battery icons with Mew-Icons
+#### Usage
+1. Download file:  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/adwaita-battery-icons.bash`
+2. Execute file:  
+`bash ./adwaita-battery-icons.bash`
+* Add `-plugged` after battery percentage to filenames at `from` list if you want to add zip (charging indicator)
