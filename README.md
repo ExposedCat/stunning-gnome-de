@@ -1,2 +1,3 @@
-# stunning-gnome
-Tools, configs, themes, etc. to make GNOME DE look great
+# Stunning GNOME DE
+
+Tools, configs, themes, etc. to make GNOME DE look really wonderful 
