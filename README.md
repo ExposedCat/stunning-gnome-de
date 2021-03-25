@@ -45,7 +45,7 @@ Adwaita: Patched Adwaita icon theme, defines set of system and application icons
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/Adwaita.zip`
 2. Extract files to `/usr/share/icons` (needs root permissions):  
 `sudo unzip Adwaita.zip -d /usr/share/icons`
-### extensions.txt
+### extensions.md
 #### Description
 List of extensions.
 #### Usage
