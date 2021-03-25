@@ -20,6 +20,8 @@ Download file to `~/.config/gtk-3.0`:
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/themes.zip`
 2. Extract files to `~/.themes`:  
 `unzip themes.zip -d ~/.themes`
+3. \[Optional] Remove archive:  
+`rm themes.zip`
 ### icons.zip
 #### Description
 Mew-Icons: Icon theme, defines set of system and application icons
@@ -28,6 +30,8 @@ Mew-Icons: Icon theme, defines set of system and application icons
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/icons.zip`
 2. Extract files to `~/.icons`:  
 `unzip icons.zip -d ~/.icons`
+3. \[Optional] Remove archive:  
+`rm icons.zip`
 ### adwaita-battery-icons.bash*
 #### Description
 Script to move replace default battery icons with Mew-Icons (You can skip this step and use next one).
@@ -37,6 +41,8 @@ Script to move replace default battery icons with Mew-Icons (You can skip this s
 2. Execute file:  
 `bash ./adwaita-battery-icons.bash`
 * Add `-plugged` after battery percentage to filenames at `from` list if you want to add zip (charging indicator)
+3. \[Optional] Remove file:  
+`rm adwaita-battery-icons.bash`
 ### Adwaita.zip
 #### Description
 Adwaita: Patched Adwaita icon theme, defines set of system and application icons (You can skip this step if use used previous one).
@@ -45,8 +51,20 @@ Adwaita: Patched Adwaita icon theme, defines set of system and application icons
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/Adwaita.zip`
 2. Extract files to `/usr/share/icons` (needs root permissions):  
 `sudo unzip Adwaita.zip -d /usr/share/icons`
+3. \[Optional] Remove archive:  
+`rm Adwaita.zip`
 ### extensions.md
 #### Description
 List of extensions.
 #### Usage
 You can install any of them by links from this file
+### terminal.conf
+#### Description
+GNOME Terminal config.
+#### Usage
+1. Download file:  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/terminal.conf`
+2. Load configuration:  
+`dconf load /org/gnome/terminal/ < terminal.conf`
+3. \[Optional] Remove config:  
+`rm terminal.conf`
