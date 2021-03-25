@@ -68,3 +68,9 @@ GNOME Terminal config.
 `dconf load /org/gnome/terminal/ < terminal.conf`
 3. \[Optional] Remove config:  
 `rm terminal.conf`
+### .zshrc
+#### Description
+ZSH configuration file.
+#### Usage
+Download file to home directory:  
+`wget -d ~ https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/.zshrc`
