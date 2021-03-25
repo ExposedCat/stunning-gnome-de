@@ -1,5 +1,7 @@
 # Stunning GNOME DE
 Tools, configs, themes, etc. to make GNOME DE look really wonderful 
+![Result preview](https://user-images.githubusercontent.com/44642024/112492984-6d149200-8d8a-11eb-9946-7f88f36172ca.png)
+
 ## Instructions
 ### gtk.css
 #### Description
