@@ -74,3 +74,21 @@ ZSH configuration file.
 #### Usage
 Download file to home directory:  
 `wget -d ~ https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/.zshrc`
+### scripts.zip
+#### Description
+1. apt-find: search for package to install (deb-based distros)
+2. dd: dd shortcut with progress line
+3. escape-special: scape all special characters in string with \
+4. lateximage: zenity-based GUI to make image from LaTeX formula and copy it to clipboard
+5. pnglatex: cli tool to create image from LaTeX formula
+6. rar2zip: convert .rar to .zip
+7. temperature/\*: shows temperature of PC units
+8. Show translited string from X11-buffer EN-RU at zenity window.
+#### Usage
+1. Download archive:  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/scripts.zip`
+2. Extract files to `~/scripts`:  
+`mkdir ~/scripts`
+`unzip scripts.zip -d ~/scripts`
+3. \[Optional] Remove archive:  
+`rm scripts.zip`
