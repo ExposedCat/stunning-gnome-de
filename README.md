@@ -12,17 +12,18 @@ Small fixes of GTK apps elements:
 4. Remove dashed line: Remove scrollable window dashed line (scrollable box indicator).
 #### Usage
 Download file to `~/.config/gtk-3.0`:  
-`wget -P ~/.config/gtk-3.0 https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/gtk.css`
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/gtk.css`  
+`mv ~/.config/gtk-3.0/gtk.css`
 ### theme.zip
 #### Description
 GTK and GNOME Shell theme, defines shell and applications appearance.
 #### Usage
 1. Download archive:  
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/theme.zip`
-2. Extract files to `~/.themes`:  
-`unzip themes.zip -d ~/.themes`
+2. Extract files to `~/.theme`:  
+`unzip theme.zip -d ~/.theme`
 3. \[Optional] Remove archive:  
-`rm themes.zip`
+`rm theme.zip`
 ### icons.zip
 #### Description
 Mew-Icons: Icon theme, defines set of system and application icons
