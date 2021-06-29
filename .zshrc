@@ -34,8 +34,8 @@ plugins=(git colorize colored-man-pages zsh-syntax-highlighting command-not-foun
 source $ZSH/oh-my-zsh.sh
 
 # Greeting
-echo "🕑 $(date +"%Y.%m.%d %T")"
-echo
+# echo "🕑 $(date +"%Y.%m.%d %T")"
+# echo
 
 # PATH
 export ANDROID_HOME=~/Android/SDK
@@ -51,12 +51,11 @@ alias zshrc="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias zshreload="source ~/.zshrc && clear"
 
-alias get="sudo apt install"
-alias remove="sudo apt remove"
-alias cleaner="sudo apt autoremove"
-alias apt-list="sudo apt list --installed | grep "
-alias apt-find="bash ~/scripts/apt-find.bash"
-alias apt-logs="cat /var/log/apt/history.log"
+alias get="sudo zypper in"
+alias remove="sudo zypper rm --clean-deps"
+alias installed="zypper packages --installed-only"
+alias search="bash ~/scripts/search.bash"
+alias zlogs="sudo zypper-logs"
 
 alias module="sudo npm install "
 alias pi="sudo pip3 install "
@@ -70,7 +69,7 @@ alias tgfl="cd ~/Desktop/Telegram/Freelance"
 alias tgother="cd ~/Desktop/Telegram/Other"
 alias newbot="bash ~/scripts/new-bot.bash"
 
-alias ts="sh ~/scripts/ts-runner.sh "
+alias ts="sh ~/bin/ts-runner.sh "
 
 alias add-ssh="bash ~/scripts/add-ssh.bash"
 alias push-ssh="bash ~/scripts/push-ssh.bash"
@@ -86,16 +85,17 @@ alias temperature="sensors | grep °C"
 alias rneofetch="neofetch | lolcat"
 alias hneofetch="neofetch --config $HOME/.config/neofetch/hidden_config.conf"
 alias system="neofetch --source $HOME/.config/neofetch/cat.txt"
-alias neofetch="neofetch --config $HOME/.config/neofetch/config.conf"
+alias neofetch="neofetch --ascii ~/.config/neofetch/suse_ascii.txt"
 alias hardware="inxi"
 alias ch="chromium "
-alias cat="batcat"
+alias cat="bat"
 alias ls="exa -a --icons"
 alias la="exa -la --icons"
-alias iso="bash ~/scripts/dd.bash "
+alias write-iso="sudo dd status=progress of=/dev/sdb if="
 alias v="$EDITOR "
-alias rm="rm -r "
 alias cp="cp -r "
+alias scp="scp -r "
+alias cls="clear && ls"
 alias dd="dd status=progress "
 alias format="sudo mkfs.vfat -IF 32 "
 alias noindex="tracker daemon -k"
