@@ -13,7 +13,7 @@ Small fixes of GTK apps elements:
 #### Usage
 Download file to `~/.config/gtk-3.0`:  
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/gtk.css`  
-`mv ~/.config/gtk-3.0/gtk.css`
+`mv gtk.css ~/.config/gtk-3.0/gtk.css`
 ### theme.zip
 #### Description
 GTK and GNOME Shell theme, defines shell and applications appearance.
