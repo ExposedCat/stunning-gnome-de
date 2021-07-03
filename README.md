@@ -1,15 +1,14 @@
 # Stunning GNOME DE
 Tools, configs, themes, etc. to make GNOME DE look really wonderful 
-![Result preview](https://user-images.githubusercontent.com/44642024/112492984-6d149200-8d8a-11eb-9946-7f88f36172ca.png)
+![Result preview](https://i.imgur.com/VUP25CN.png)
 
 ## Instructions
 ### gtk.css
 #### Description
 Small fixes of GTK apps elements:
 1. Small titlebars: Make titlebars smaller.
-2. Nautilus fixes: Fix nautilus (default GNOME file manager) buttons and side bar sizes.
-3. Windows border color: Make windows borders dimmer and thinner.
-4. Remove dashed line: Remove scrollable window dashed line (scrollable box indicator).
+2. Windows border color: Make windows borders dimmer and thinner.
+3. Remove dashed line: Remove scrollable window dashed line (scrollable box indicator).
 #### Usage
 Download file to `~/.config/gtk-3.0`:  
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/gtk.css`  
@@ -26,7 +25,7 @@ GTK and GNOME Shell theme, defines shell and applications appearance.
 `rm theme.zip`
 ### icons.zip
 #### Description
-Mew-Icons: Icon theme, defines set of system and application icons
+Icon theme, defines set of system and application icons
 #### Usage
 1. Download archive:  
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/icons.zip`
@@ -34,7 +33,7 @@ Mew-Icons: Icon theme, defines set of system and application icons
 `unzip icons.zip -d ~/.icons`
 3. \[Optional] Remove archive:  
 `rm icons.zip`
-### adwaita-battery-icons.bash*
+### adwaita-battery-icons.bash* [Deprecated]
 #### Description
 Script to move replace default battery icons with Mew-Icons (You can skip this step and use next one).
 #### Usage
@@ -45,7 +44,7 @@ Script to move replace default battery icons with Mew-Icons (You can skip this s
 * Add `-plugged` after battery percentage to filenames at `from` list if you want to add zip (charging indicator)
 3. \[Optional] Remove file:  
 `rm adwaita-battery-icons.bash`
-### Adwaita.zip
+### Adwaita.zip [Deprecated]
 #### Description
 Adwaita: Patched Adwaita icon theme, defines set of system and application icons (You can skip this step if use used previous one).
 #### Usage
