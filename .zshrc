@@ -38,13 +38,8 @@ source $ZSH/oh-my-zsh.sh
 # echo
 
 # PATH
-export ANDROID_HOME=~/Android/SDK
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:/usr/sbin
+export JAVA_HOME="/usr/lib64/jvm/java-1.8.0-openjdk-1.8.0/jre"
+export PATH=$PATH:/usr/sbin:~/.local/bin
 
 # ALIASES
 alias zshrc="$EDITOR ~/.zshrc"
