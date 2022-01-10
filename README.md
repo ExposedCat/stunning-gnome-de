@@ -87,8 +87,8 @@ Icon theme, defines set of system and application icons
 4. Apply as `Icons theme` in Tweaks → Appearance
 4. Apply as `Cursor theme` in Tweaks → Appearance
 
-### extensions.md
+### [extensions.md](https://github.com/ExposedCat/stunning-gnome-de/blob/main/extensions.md)
 #### Description
 List of useful extensions. Fewer extensions installed = better, so only install the ones you think are needful
 #### Usage
-You can install any of them by links from this file
+You can install any of them by links from [this file](https://github.com/ExposedCat/stunning-gnome-de/blob/main/extensions.md)
