@@ -3,6 +3,9 @@
 ![Result preview](assets/preview.png)
 Tools, configs, themes, etc. to make GNOME DE look really wonderful 
 
+## Other configs
+Check out also my [Dotfiles repo](https://github.com/ExposedCat/dotfiles) for some linux-related configs
+
 ## Instructions
 
 ### configs/gtk.css
@@ -14,35 +17,6 @@ Small fixes of GTK apps elements:
 Download file to `~/.config/gtk-3.0`:  
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/gtk.css`  
 `mv gtk.css ~/.config/gtk-3.0/gtk.css`
-
-### configs/.zshrc
-#### Description
-ZSH shell config:
-1. Colors
-2. ZSH settings
-3. Plugins
-4. Java PATH variables
-5. Aliases for git, dnf and other utilites
-#### Usage
-Download file to `~`:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/.zshrc`  
-`mv .zshrc ~`
-
-### configs/flameshot.ini
-#### Description
-Flameshot configuration
-#### Usage
-Download file to `~/.config/flameshot`:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/flameshot.ini`  
-`mv flameshot.ini ~/.config/flameshot`
-
-### configs/neofetch.conf
-#### Description
-Neofetch configuration
-#### Usage
-Download file to `~/.config/neofetch/config.conf`:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/neofetch.conf`  
-`mv neofetch.conf ~/.config/neofetch/config.conf`
 
 ### configs/terminal.conf
 #### Description
