@@ -42,8 +42,8 @@ GTK and GNOME Shell theme, defines shell and applications appearance.
 1. Enable [User Themes extension](https://extensions.gnome.org/extension/19/user-themes/)
 2. Download archive:  
 `wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/assets/theme.zip`
-3. Extract files to `~/.theme`:  
-`unzip theme.zip -d ~/.theme`
+3. Extract files to `~/.themes`:  
+`unzip theme.zip -d ~/.themes`
 4. \[Optional] Remove archive:  
 `rm theme.zip`
 5. Apply as `Applications theme` and `Shell theme` in Tweaks → Appearance
