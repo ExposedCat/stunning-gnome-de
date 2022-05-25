@@ -1,6 +1,6 @@
 <h1 align="center">Stunning GNOME DE</h1>
 
-![Result preview](assets/preview.png)
+![Result preview](assets/preview.jpg)
 Tools, configs, themes, etc. to make GNOME DE look really wonderful 
 
 ## Other configs
