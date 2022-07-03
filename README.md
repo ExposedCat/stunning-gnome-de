@@ -10,18 +10,17 @@ You can find some bonus wallpapers in <a href="assets/wallpapers">assets/wallpap
 </p>
 
 <hr>
-<h2 align="center"><a href="https://github.com/ExposedCat/stunning-gnome-de/tree/lava-sakura">Lava Sakura</a></h2>
-<img src="https://github.com/ExposedCat/stunning-gnome-de/blob/lava-sakura/assets/preview.png?raw=true" alt="Lava Sakura setup preview">
+<h2 align="center"><a href="https://github.com/ExposedCat/stunning-gnome-de/tree/lo-fi">Lo-Fi</a></h2>
+<img src="https://github.com/ExposedCat/stunning-gnome-de/blob/lo-fi/assets/preview.png?raw=true" alt="Lo-Fi setup preview">
 
 <ul style="list-style-type:circle">
-    <li>Rounded floating panel</p>
-    <li>Music & mobile device control</p>
+    <li>Colorful panel</p>
     <li>Shell theme</p>
     <li>Applications theme</p>
     <li>Icon theme</p>
     <li>Cursor theme</p>
-    <li>Wallpaper (ScreenPad support)</p>
-    <li>GNOME Terminal config</p>
+    <li>Wallpaper</p>
+    <li>GNOME Terminal fixes</p>
     <li>Extensions set</p>
 </ul>
 
@@ -41,16 +40,17 @@ You can find some bonus wallpapers in <a href="assets/wallpapers">assets/wallpap
 </ul>
 
 <hr>
-<h2 align="center"><a href="https://github.com/ExposedCat/stunning-gnome-de/tree/lo-fi">Lo-Fi</a></h2>
-<img src="https://github.com/ExposedCat/stunning-gnome-de/blob/lo-fi/assets/preview.jpg?raw=true" alt="Lo-Fi setup preview">
+<h2 align="center"><a href="https://github.com/ExposedCat/stunning-gnome-de/tree/lava-sakura">Lava Sakura</a></h2>
+<img src="https://github.com/ExposedCat/stunning-gnome-de/blob/lava-sakura/assets/preview.png?raw=true" alt="Lava Sakura setup preview">
 
 <ul style="list-style-type:circle">
-    <li>Colorful panel</p>
+    <li>Rounded floating panel</p>
+    <li>Music & mobile device control</p>
     <li>Shell theme</p>
     <li>Applications theme</p>
     <li>Icon theme</p>
     <li>Cursor theme</p>
-    <li>Wallpaper</p>
-    <li>GNOME Terminal fixes</p>
+    <li>Wallpaper (ScreenPad support)</p>
+    <li>GNOME Terminal config</p>
     <li>Extensions set</p>
 </ul>
