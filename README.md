@@ -1,4 +1,4 @@
-<h1 align="center">Stunning GNOME DE</h1>
+<h1 align="center">GNOME DE - Lava Sakura</h1>
 
 ![Result preview](assets/preview.png)
 Tools, configs, themes, etc. to make GNOME DE look really wonderful 
@@ -12,7 +12,7 @@ Small fixes of GTK apps elements:
 3. Removed dashed line: Removed scrollable window dashed line (scrollable box indicator)
 #### Usage
 Download file to `~/.config/gtk-3.0`:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/gtk.css`  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/configs/gtk.css`  
 `mv gtk.css ~/.config/gtk-3.0/gtk.css`
 
 ### configs/.zshrc
@@ -25,7 +25,7 @@ ZSH shell config:
 5. Aliases for git, dnf and other utilites
 #### Usage
 Download file to `~`:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/.zshrc`  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/configs/.zshrc`  
 `mv .zshrc ~`
 
 ### configs/flameshot.ini
@@ -33,7 +33,7 @@ Download file to `~`:
 Flameshot configuration
 #### Usage
 Download file to `~/.config/flameshot`:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/flameshot.ini`  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/configs/flameshot.ini`  
 `mv flameshot.ini ~/.config/flameshot`
 
 ### configs/neofetch.conf
@@ -41,7 +41,7 @@ Download file to `~/.config/flameshot`:
 Neofetch configuration
 #### Usage
 Download file to `~/.config/neofetch/config.conf`:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/neofetch.conf`  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/configs/neofetch.conf`  
 `mv neofetch.conf ~/.config/neofetch/config.conf`
 
 ### configs/terminal.conf
@@ -49,13 +49,13 @@ Download file to `~/.config/neofetch/config.conf`:
 GNOME Terminal config
 #### Usage
 1. Download font:
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/assets/JetBrainsMonospace.ttf`  
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/assets/JetBrainsMonospace.ttf`  
 2. Install font, enable it in Tweaks → Fonts as `Monospace` font:
 `gnome-font-viewer ./JetBrainsMonospace.ttf`  
 3. \[Optional] Remove font file:
 `rm ./JetBrainsMonospace.ttf`
 4. Download file:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/configs/terminal.conf`
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/configs/terminal.conf`
 5. Load configuration:  
 `dconf load /org/gnome/terminal/ < ./terminal.conf`
 6. \[Optional] Remove config:  
@@ -67,7 +67,7 @@ GTK and GNOME Shell theme, defines shell and applications appearance.
 #### Usage
 1. Enable [User Themes extension](https://extensions.gnome.org/extension/19/user-themes/)
 2. Download archive:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/assets/theme.zip`
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/assets/theme.zip`
 3. Extract files to `~/.themes`:  
 `unzip theme.zip -d ~/.themes`
 4. \[Optional] Remove archive:  
@@ -79,7 +79,7 @@ GTK and GNOME Shell theme, defines shell and applications appearance.
 Icon theme, defines set of system and application icons
 #### Usage
 1. Download archive:  
-`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/main/assets/icons.zip`
+`wget https://raw.githubusercontent.com/ExposedCat/stunning-gnome-de/lava-sakura/assets/icons.zip`
 2. Extract files to `~/.icons`:  
 `unzip icons.zip -d ~/.icons`
 3. \[Optional] Remove archive:  
@@ -87,8 +87,8 @@ Icon theme, defines set of system and application icons
 4. Apply as `Icons theme` in Tweaks → Appearance
 4. Apply as `Cursor theme` in Tweaks → Appearance
 
-### [extensions.md](https://github.com/ExposedCat/stunning-gnome-de/blob/main/extensions.md)
+### [extensions.md](extensions.md)
 #### Description
 List of useful extensions. Fewer extensions installed = better, so only install the ones you think are needful
 #### Usage
-You can install any of them by links from [this file](https://github.com/ExposedCat/stunning-gnome-de/blob/main/extensions.md)
+You can install any of them by links from [this file](extensions.md)
