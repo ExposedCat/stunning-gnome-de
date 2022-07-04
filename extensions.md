@@ -13,6 +13,7 @@ Extension settings can be found on extension page (if any). Reload page after in
 10. [**Open Weather**](https://extensions.gnome.org/extension/750/openweather/): Shows weather on the panel (recommended to use with own API key).
 11. [**GTK Title Bar**](https://extensions.gnome.org/extension/1732/gtk-title-bar/): Hide useless titlebars (close with hotkey, move with Super + LMC, Alt + Space for other options).
 12. [**Big Avatar**](https://extensions.gnome.org/extension/3488/big-avatar/): Add username and avatar to panel status menu.
+13. [**Workspace indicator**](https://extensions.gnome.org/extension/3952/workspace-indicator/): Add workspace indicator widget on panel
   
     
 \* Extension made by ExposedCat. Thanks for testing, contributing and reviews on extensions.gnome.org and GitHub.  
