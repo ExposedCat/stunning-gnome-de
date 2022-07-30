@@ -10,6 +10,21 @@ You can find some bonus wallpapers in <a href="assets/wallpapers">assets/wallpap
 </p>
 
 <hr>
+<h2 align="center"><a href="https://github.com/ExposedCat/stunning-gnome-de/tree/nord-peach">Nord Peach</a></h2>
+<img src="https://github.com/ExposedCat/stunning-gnome-de/blob/nord-peach/assets/preview.png?raw=true" alt="Nord Peach setup preview">
+
+<ul style="list-style-type:circle">
+    <li>Colorful panel</p>
+    <li>Shell theme</p>
+    <li>Applications theme</p>
+    <li>Icon theme</p>
+    <li>Cursor theme</p>
+    <li>Wallpaper</p>
+    <li>GNOME Terminal fixes</p>
+    <li>Extensions set</p>
+</ul>
+
+<hr>
 <h2 align="center"><a href="https://github.com/ExposedCat/stunning-gnome-de/tree/lo-fi">Lo-Fi</a></h2>
 <img src="https://github.com/ExposedCat/stunning-gnome-de/blob/lo-fi/assets/preview.png?raw=true" alt="Lo-Fi setup preview">
 
